@@ -1,0 +1,17 @@
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsorBanner {
+  display: grid;
+  place-content: center;
+  height: 150px;
+  width: 100vw;
+  background: orange;
+  border-radius: 100px 100px 100px 100px;
+}
+
+.heroContainer img {
+  width: 280px;
+}

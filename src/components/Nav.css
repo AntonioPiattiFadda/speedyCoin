@@ -1,0 +1,44 @@
+.navContainer {
+  width: var(--container-width);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+.navContainer div:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navContainer div:first-child img {
+  width: 70px;
+}
+.navContainer div:first-child p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 10px;
+}
+.navContainer div:first-child p span {
+  color: var(--primary-color);
+}
+.navContainer ul {
+  display: flex;
+  flex-direction: row;
+}
+.navContainer ul li {
+  list-style: none;
+  margin: 0 10px;
+  color: white;
+}
+.navContainer button {
+  background-color: var(--dark-orange);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+}
