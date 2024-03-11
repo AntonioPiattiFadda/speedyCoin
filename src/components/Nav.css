@@ -20,7 +20,7 @@
   font-weight: bold;
   color: #fff;
   margin-left: 10px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: var(--text-shadow);
 }
 .navContainer div:first-child p span {
   color: var(--primary-color);
@@ -39,7 +39,8 @@
   margin: 0 10px;
   color: white;
   font-weight: 300;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: var(--text-shadow);
+  cursor: pointer;
 }
 .navContainer button {
   background-color: var(--darker-orange);

@@ -7,11 +7,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding-top: 150px;
+  padding: 130px 0 200px 0;
 }
 .heroContainer h1 {
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: var(--text-shadow);
 }
 .heroContainer h1 span {
   color: var(--primary-color);
@@ -21,7 +21,7 @@
   margin: 20px 0;
   text-align: center;
   font-size: large;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: var(--text-shadow);
   font-weight: 300;
   margin-bottom: 60px;
 }
@@ -70,7 +70,7 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 25px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--box-shadow);
 }
 .chainAddressContainer img {
   width: 70px;
@@ -102,13 +102,13 @@
 
 .sponsorBanner {
   position: relative;
-  margin-top: -25px;
+  margin-top: -230px;
   display: grid;
   place-content: center;
   height: 400px;
   width: 100vw;
   background: var(--light-orange);
-  border-radius: 25%;
+  border-radius: 40%/12%;
 }
 .sponsorBanner span {
   text-align: center;
