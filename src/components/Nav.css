@@ -1,4 +1,5 @@
 .navContainer {
+  position: absolute;
   width: var(--container-width);
   display: flex;
   flex-direction: row;
@@ -26,6 +27,7 @@
 .navContainer ul {
   display: flex;
   flex-direction: row;
+  margin-right: auto;
 }
 .navContainer ul li {
   list-style: none;

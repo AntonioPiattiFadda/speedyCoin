@@ -6,10 +6,8 @@ import Nav from './components/Nav';
 function App() {
   return (
     <div className="appWrapper">
-      <div className="heroBanner">
-        <Nav />
-        <Hero />
-      </div>
+      <Nav />
+      <Hero />
       <Footer />
     </div>
   );
