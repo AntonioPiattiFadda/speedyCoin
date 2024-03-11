@@ -9,17 +9,17 @@ const Nav = () => {
         <img src={Logo} alt="Logo Speedy" />
         <p>
           {' '}
-          <span>Speedy</span> Coin
+          <span>Speedy</span>Coin
         </p>
       </div>
       <ul>
         <li>Home</li>
-        <li>2</li>
-        <li>1</li>
-        <li>2</li>
-        <li>1</li>
+        <li>Whitepaper</li>
+        <li>Roadmap</li>
+        <li>Ecosystem</li>
+        <li>Community</li>
       </ul>
-      <button>Conectar</button>
+      <button>connect wallet</button>
     </div>
   );
 };

@@ -1,6 +1,8 @@
 :root {
-  --primary-color: #fcfe40;
-  --light-orange: #f2a72f;
-  --dark-orange: #c54808;
+  --primary-color: rgb(255, 224, 0);
+  --light-orange: rgb(239, 115, 32);
+  --dark-orange: rgb(238, 98, 4);
+  --darker-orange: rgb(242, 80, 29);
+  --green: rgb(53, 170, 14);
   --container-width: 1200px;
 }
